@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>CommsHub</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="sidebar">
+            <div class="sidebar-icon-wrapper">
+                <button onclick="toggleView(this, 'outlook')" class="shown"><img width="40px" src="icons/outlook.png"></button>
+                <div class="badge hidden" id="outlookBadge"></div>
+            </div>
+            <div class="sidebar-icon-wrapper">
+                <button onclick="toggleView(this, 'slack')" class="shown"><img width="40px" src="icons/slack.png"></button>
+                 <div class="badge hidden" id="slackBadge"></div>
+            </div>
+            <div class="sidebar-icon-wrapper">
+                <button onclick="toggleView(this, 'teams')" class="shown"><img width="40px" src="icons/teams.png"></button>
+                <div class="badge hidden" id="teamsBadge"></div>
+            </div>
+        </div>
+        <div id="panels">
+            <webview src="https://outlook.office.com/mail/" id="outlook" class="panel" partition="persist:outlook" preload="./preload-webview.js" allowpopups></webview>
+            <webview src="https://app.slack.com/client" id="slack" class="panel" partition="persist:slack" preload="./preload-webview.js" allowpopups></webview>
+            <webview src="https://teams.microsoft.com" id="teams" class="panel" partition="persist:teams" preload="./preload-webview.js" allowpopups></webview>
+        </div>
+
+        <script type="text/javascript" src="index.js"></script>  
+
+    </body>
+</html>

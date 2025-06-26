@@ -1,0 +1,28 @@
+{
+    "name": "AMGCommsHub",
+    "version": "1.0.0",
+    "description": "A basic electron app that will display the web clients for Outlook, Slack and Teams",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder"
+    },
+    "build": {
+        "appId": "com.aarongeller.amgcommshub",
+        "productName": "AMGCommsHub",
+        "win": {
+            "target": [
+                "nsis",   
+                "portable"
+            ],
+            "icon": "src/icons/app-icon.ico" 
+        }
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^36.4.0",
+        "electron-builder": "^26.0.12"
+    }
+}
