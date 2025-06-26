@@ -25,4 +25,4 @@ This project uses dual licensing:
 - Any use that generates revenue
 
 ### Getting a commercial license
-To request a commercial license, please [follow this link to open a GitHub issue](https://github.com/ageller/electron-teams-slack-outlook-app/issues/new?template=commercial-license-inquiry.md) with my Commercial License Inquiry template and the "commercial-license" label.  I will reply as soon as possible.
+To request a commercial license, please [follow this link to open a GitHub issue](https://github.com/ageller/CommsHub/issues/new?template=commercial-license-inquiry.md) with my Commercial License Inquiry template and the "commercial-license" label.  I will reply as soon as possible.
