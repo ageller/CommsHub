@@ -1,0 +1,82 @@
+html{
+    height:100%;
+    margin:0
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+#sidebar {
+  width: 80px;
+  background-color: #aeaeae;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2px;
+  height: 100vh;
+  flex-shrink: 0;
+}
+#sidebar button {
+    background: none;
+    border: none;
+    color: gray;
+    margin: 2px 0;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding:20px
+}
+#sidebar .shown{
+    background-color:gray;
+}
+#sidebar .sidebar-icon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+#sidebar .badge {
+  position: absolute;
+  top: 8px;
+  right: 4px;
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  /* border: 6px solid black; */
+  z-index: 10;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#panels {
+    display: flex;
+    flex: 1;
+    height:100%;
+}
+.panel {
+    flex: 1;
+    border: none;
+    display: block;
+    height:100%;
+}
+.hidden {
+    display: none !important;
+}
+
+webview {
+    flex: 1;
+    border: none;
+    height:100%;
+    display: block;
+}
+
+webview::part(iframe) {
+  height: 100% !important;
+  width: 100% !important;
+}

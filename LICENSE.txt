@@ -1,0 +1,18 @@
+Copyright (c) 2025 Aaron Geller
+
+Dual License
+
+This software is available under two licenses:
+
+1. PERSONAL/NON-COMMERCIAL USE
+   This software is licensed under the GNU Affero General Public License v3.0
+   for personal, educational, and non-commercial use.
+   See LICENSE-AGPL.txt for full terms.
+
+2. COMMERCIAL USE
+   Commercial use requires a separate commercial license.
+   Contact [your-email@example.com] for commercial licensing terms.
+   See LICENSE-COMMERCIAL.txt for standard commercial terms.
+
+By using this software, you agree to comply with the terms of the 
+applicable license based on your use case.

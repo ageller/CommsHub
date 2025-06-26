@@ -1,0 +1,30 @@
+COMMERCIAL LICENSE TERMS
+CommsHub
+
+Copyright (c) 2025 Aaron Geller
+
+
+This file contains the standard terms for commercial licensing of this software.
+
+OBTAINING A COMMERCIAL LICENSE
+Commercial use of this software requires a separate license agreement.
+Each commercial license is individually negotiated based on:
+- Scope of use
+- Distribution requirements  
+- Support needs
+- Duration
+
+CONTACT FOR COMMERCIAL LICENSING
+Please see the README.md file in this GitHub repository 
+(https://github.com/ageller/electron-teams-slack-outlook-app/blob/main/README.md)
+for details on how to request a commercial license.
+
+STANDARD COMMERCIAL TERMS
+Upon agreement, commercial licenses typically include:
+- Right to use in commercial applications
+- Right to modify and distribute
+- No copyleft obligations
+- Limited warranty disclaimers
+- Reasonable limitation of liability
+
+Specific terms, fees, and conditions are determined per agreement.
