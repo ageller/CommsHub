@@ -1,6 +1,6 @@
 {
     "name": "AMGCommsHub",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A basic electron app that will display the web clients for Outlook, Slack and Teams",
     "main": "main.js",
     "scripts": {
