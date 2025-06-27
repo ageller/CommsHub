@@ -61,7 +61,7 @@ app.on('web-contents-created', (event, contents) => {
     contents.setWindowOpenHandler(({ url }) => {
         const urlObj = new URL(url);
         // Keep Slack links in electron so that I can sign into new workspaces
-        if (urlObj.hostname.includes('slack.com')) {
+        if (urlObj.hostname.includes('slack.com') || urlObj.href === 'about:blank') {
             // Allow these to open in new Electron window with controls
             return {
                 action: 'allow',
